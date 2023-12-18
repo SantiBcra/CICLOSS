@@ -1,0 +1,167 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+  
+
+  .hh{
+  
+    font-family: "Patua One";
+    color: rgba(231, 220, 220, 0.973);
+    font-size: 60px;
+   
+    transition: transform 0.35s ease-out;
+    margin-left: 22px;
+    }
+    
+    .hh:hover{
+      
+      filter: drop-shadow(0 0 2em rgba(255, 255, 255, 0.74));
+    }
+
+
+
+  
+h1{
+  
+ font-family: 'Rock Salt', cursive;
+color: rgba(0, 0, 0, 0.973);
+font-size: 60px;
+text-decoration:underline;
+transition: transform 0.35s ease-out;
+margin-left: 22px;
+}
+
+h1:hover{
+  
+  filter: drop-shadow(0 0 2em rgba(255, 255, 255, 0.74));
+}
+
+h2{
+  font-family:"Patua One";
+  color: rgba(231, 220, 220, 0.973);
+font-size: 30px;
+
+text-decoration: underline ;
+margin-left: 22px;
+
+}
+
+h3{
+  font-family:"Patua One";
+  color: #ff7300;
+
+font-size: 30px;
+text-decoration: underline 
+}
+
+h4{
+  font-family: "Patua One";
+  color: rgba(231, 220, 220, 0.973);
+  font-size: 26px; 
+  transition: ease-out 0s;
+}
+
+a{
+  font-family: "Patua One";
+  color: rgba(231, 220, 220, 0.973);
+  font-size: 30px; 
+  transition: ease-out 0s;
+}
+a:hover{
+  color: rgb(211, 32, 32);
+}
+
+p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(255, 255, 255, 0.973);
+  text-align: center;
+  font-size: 21px;
+  letter-spacing: 1px;
+  background-color: #00000000;
+  
+  
+   
+  
+}
+
+
+
+.fondo{
+
+
+
+  background:linear-gradient(rgba(138, 138, 138, 0.911),rgba(22, 181, 192));
+    
+  
+  /* height: 50vh; */
+  background-position: center;
+  background-size:cover;
+  background-repeat:no repeat
+}
+
+
+
+
+
+@media (max-width:920px){
+
+  .fondo{
+    display: grid;
+    grid-template-columns: (1,1fr);
+    justify-content:center
+  
+  }
+  
+  .item-cont{
+    display:contents;
+    
+    padding: 10px 10px 10px 10px ;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .nav{
+    
+    display: flex;
+    margin-bottom:20px ;
+
+  
+  }
+  
+  h1{
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  p{
+    display: grid;
+    grid-template-columns: (1,1fr);
+    justify-content:center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+.card-container{
+
+  display: flex;
+  width: auto;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #000000a6;
+
+}
+  
+
+  .cont{
+    display: grid;
+    grid-template-columns: (1,1fr);
+    justify-content:center
+  }
+  
+  }
+  
+
+
